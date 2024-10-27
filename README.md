@@ -1,4 +1,4 @@
-# PennyWise
+# Menu-Based Expense Tracking System
 
 Overview
 
