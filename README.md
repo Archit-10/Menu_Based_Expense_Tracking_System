@@ -1,4 +1,4 @@
-# Menu-Based-Expense-Tracker
+# PennyWise
 
 Overview
 
