@@ -78,9 +78,9 @@ Expense added successfully.
 Select an option: 4
 Expenses:
 Participant's Name           Amount Owes/Gets Back  
-Penny Nichols                        +20.0
-Buck Wilde                           -10.0
-Cash Sterling                        -10.0
+Penny Nichols                        +40.0
+Buck Wilde                           -20.0
+Cash Sterling                        -20.0
 </code>
 </pre>
 
