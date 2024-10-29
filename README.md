@@ -98,16 +98,22 @@ Challenges Faced
 
     Data Persistence:
         Since the current system only writes data upon exit, handling interruptions in real-time data saving could improve reliability.
-
 Future Directions
 
-Graphical User Interface (GUI): Adding a GUI would enhance user experience and make the tool more accessible, allowing users to interact with buttons and menus instead of typing commands.
+    Graphical User Interface (GUI):
+        Adding a GUI would enhance user experience by allowing interaction through buttons and menus, making PennyWise more intuitive and visually accessible.
 
-Real-Time Synchronization: Implementing a feature that automatically saves data after each entry would help prevent accidental data loss. Integration with cloud storage could enable real-time collaboration across devices.
+    Real-Time Synchronization:
+        Implementing real-time data saving would prevent accidental data loss. Integration with cloud storage could enable seamless collaboration across devices.
 
-Advanced Reporting and Analysis: Enhancing data output to generate summary reports, visual charts, and in-depth analysis could make it easier for users to understand spending patterns and balances.
+    Advanced Reporting and Analysis:
+        Enhanced data output with summary reports, visual charts, and in-depth analysis could help users gain insights into spending patterns and balances.
 
-Mobile Compatibility: Building a mobile version of PennyWise could increase its accessibility, providing users with on-the-go expense tracking and making it ideal for trips and events.
+    Mobile Compatibility:
+        Developing a mobile-friendly version would provide users with on-the-go expense tracking, ideal for group events and trips.
 
-Machine Learning for Predictive Insights: Integrating basic machine learning models could allow PennyWise to offer budgeting suggestions based on historical spending patterns, adding value for frequent users.
+    Machine Learning for Predictive Insights:
+        Integrating basic machine learning could allow PennyWise to offer budgeting suggestions based on historical spending patterns, adding value for frequent users.
+
+
 
