@@ -1,90 +1,87 @@
-# Menu-Based Expense Tracking System
+Welcome to PennyWise, your straightforward, Python-powered solution for tracking group expenses. Whether you're managing a weekend getaway, a project expense report, or a casual meal with friends, PennyWise helps you keep finances clear and fair. Built with a minimal, menu-driven interface, it’s perfect for those who want a quick, transparent way to split expenses.
+📌 Features
 
-Overview
+    Add Participants
+    Effortlessly add multiple participants by name, each initializing with a balance of zero. This sets the groundwork for tracking each individual’s share of group expenses.
 
-This project involves creating a menu-based expense tracker application that allows users to add participants, record expenses, display participant information, show expense summaries, and export data to a CSV file. The application is designed to manage expenses shared among multiple participants and keep track of who owes or gets back money.
-Features and Requirements
-Menu Options
+    Log Expenses
+    Record expenses by specifying:
+        The payer
+        The total amount
+        Participants involved in that expense
 
-    Add Participant(s):
-        Add one or more unique names of participants who will be involved in the transactions.
-    Add Expense:
-        Record an expense by specifying who paid, the amount paid, and how the expense is distributed among participants.
-    Show All Participants:
-        Display the names of all participants currently added.
-    Show Expenses:
-        Display a summary table showing each participant’s expenses and how much they owe or get back.
-    Exit/Export:
-        Export all data to a CSV file named expenses.csv and exit the program.
+    PennyWise then calculates each participant's share automatically, allocating costs accurately based on the input.
 
-Input/Output
+    View Participants
+    List all participants to keep track of who's involved in the current session.
 
-    Input: User inputs via the console.
-    Output: Display information on the console and export data to a CSV file.
+    Show Balance
+    See who owes what or gets back money. PennyWise calculates each participant's balance relative to the average contribution, showing a clear picture of who needs to settle up.
 
-Implementation Details
-Prerequisites
+    Export to CSV
+    With a single click, export the expense data to expenses.csv for easy sharing and record-keeping.
 
-    Python 3.x: Required to run the program.
-
-Setup and Installation
+📋 Installation and Usage
 
     Clone the Repository:
 
-    sh
+    bash
 
-git clone <repository-url>
-cd expense-tracker
+git clone <repo-url>
+cd pennywise
 
-Run the Application:
+Run the Program:
 
-    Execute the Python script expense_tracker.py in your terminal:
+bash
 
-    sh
+    python expense_tracker.py
 
-        python expense_tracker.py
+    Follow the Menu Options:
+    The menu will prompt you through adding participants, logging expenses, viewing balances, and exporting data to a CSV file when you’re done.
 
-Code Explanation
-Data Structure
+💡 Sample Walkthrough
 
-    Participants Dictionary:
-        Key: Participant's name (string)
-        Value: Net amount (float) indicating how much they owe or get back.
+    Add participants with their names.
+    Record an expense, indicating who paid and how much, along with the participants sharing the cost.
+    View individual balances to see who owes or gets back money.
+    Export your expense data in a neat CSV format before exiting the program.
 
-Functions
+Example Usage
 
-    add_participants():
-        Clear existing participants and add new participants to the dictionary.
-        Input: Number of participants and their names.
-        Output: Confirmation message.
+Here's a quick example of how a session might look:
 
-    add_expense():
-        Record an expense by taking the payer's name, amount paid, and names of participants involved.
-        Calculate the share of each participant and update the dictionary.
-        Output: Confirmation message.
+plaintext
 
-    show_participants():
-        Display the names of all participants.
-        Output: List of participant names.
+Menu:
+1. Add participant(s)
+2. Add expense
+3. Show all participants
+4. Show expenses
+5. Exit/Export
 
-    show_expenses():
-        Display a table summarizing each participant’s net amount.
-        Output: Table with participant names and their net amount.
+Select an option: 1
+Enter the number of participants: 3
+Enter participant's name: Alice
+Enter participant's name: Bob
+Enter participant's name: Carol
 
-    write_to_csv():
-        Export participant data to a CSV file named expenses.csv.
-        Output: Confirmation message and CSV file.
+Select an option: 2
+Paid by: Alice
+Amount: 60
+Distributed amongst (comma separated): Alice, Bob, Carol
 
-Usage
-Menu Navigation
+Expense added successfully.
 
-    Add Participant(s):
-        Select option 1 and follow the prompts to add participants.
-    Add Expense:
-        Select option 2 and follow the prompts to record an expense.
-    Show All Participants:
-        Select option 3 to display all participant names.
-    Show Expenses:
-        Select option 4 to display the expense summary table.
-    Exit/Export:
-        Select option 5 to export data to expenses.csv and exit the program.
+Select an option: 4
+Expenses:
+Participant's Name           Amount Owes/Gets Back  
+Alice                         +20.0
+Bob                           -10.0
+Carol                         -10.0
+
+📝 Data Export
+
+After completing all entries, export your data to a CSV file (expenses.csv). The file includes each participant's net balance, making it easy to share or review your finances.
+📎 Suggested Images
+
+For an added professional touch, include an image of a sample CSV output and a screenshot of the terminal running the program to give a clear preview of the tool’s interface.
