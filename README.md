@@ -35,7 +35,7 @@ cd pennywise</code>
 
 <h3>Run the Program:</h3>
 <pre>
-<code>python expense_tracker.py</code>
+<code>python Expense_tracker.py</code>
 </pre>
 
 <h3>Follow the Menu Options:</h3>
