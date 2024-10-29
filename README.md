@@ -123,3 +123,4 @@ Cash Sterling                        -20.0
         <p>Integrating basic machine learning could allow PennyWise to offer budgeting suggestions based on historical spending patterns, adding value for frequent users.</p>
     </li>
 </ul>
+
