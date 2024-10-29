@@ -1,4 +1,8 @@
+### Menu-Based Expense Tracking System
+
+
 Welcome to PennyWise, your straightforward, Python-powered solution for tracking group expenses. Whether you're managing a weekend getaway, a project expense report, or a casual meal with friends, PennyWise helps you keep finances clear and fair. Built with a minimal, menu-driven interface, it’s perfect for those who want a quick, transparent way to split expenses.
+
 📌 Features
 
     Add Participants
