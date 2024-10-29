@@ -64,23 +64,23 @@ Menu:
 
 Select an option: 1
 Enter the number of participants: 3
-Enter participant's name: Alice
-Enter participant's name: Bob
-Enter participant's name: Carol
+Enter participant's name: Penny Nichols
+Enter participant's name: Buck Wilde
+Enter participant's name: Cash Sterling
 
 Select an option: 2
-Paid by: Alice
+Paid by: Penny Nichols
 Amount: 60
-Distributed amongst (comma separated): Alice, Bob, Carol
+Distributed amongst (comma separated): Penny Nichols, Buck Wilde, Cash Sterling
 
 Expense added successfully.
 
 Select an option: 4
 Expenses:
 Participant's Name           Amount Owes/Gets Back  
-Alice                         +20.0
-Bob                           -10.0
-Carol                         -10.0
+Penny Nichols                        +20.0
+Buck Wilde                           -10.0
+Cash Sterling                        -10.0
 </code>
 </pre>
 
