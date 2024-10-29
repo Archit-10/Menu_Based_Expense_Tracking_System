@@ -86,6 +86,4 @@ Carol                         -10.0
 📝 Data Export
 
 After completing all entries, export your data to a CSV file (expenses.csv). The file includes each participant's net balance, making it easy to share or review your finances.
-📎 Suggested Images
 
-For an added professional touch, include an image of a sample CSV output and a screenshot of the terminal running the program to give a clear preview of the tool’s interface.
