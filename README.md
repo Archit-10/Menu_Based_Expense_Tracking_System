@@ -87,3 +87,27 @@ Carol                         -10.0
 
 After completing all entries, export your data to a CSV file (expenses.csv). The file includes each participant's net balance, making it easy to share or review your finances.
 
+🚀 Challenges and Future Directions
+Challenges Faced
+
+    Accurate Expense Distribution:
+        Handling expenses with varied participant distributions was essential to ensure accuracy. Balancing each individual's owed or paid amount against others demanded precise computation.
+
+    User Interface Limitations:
+        Keeping the interface simple meant restricting user interaction to text-based prompts. Maintaining ease of use while providing clear instructions was a constant focus.
+
+    Data Persistence:
+        Since the current system only writes data upon exit, handling interruptions in real-time data saving could improve reliability.
+
+Future Directions
+
+Graphical User Interface (GUI): Adding a GUI would enhance user experience and make the tool more accessible, allowing users to interact with buttons and menus instead of typing commands.
+
+Real-Time Synchronization: Implementing a feature that automatically saves data after each entry would help prevent accidental data loss. Integration with cloud storage could enable real-time collaboration across devices.
+
+Advanced Reporting and Analysis: Enhancing data output to generate summary reports, visual charts, and in-depth analysis could make it easier for users to understand spending patterns and balances.
+
+Mobile Compatibility: Building a mobile version of PennyWise could increase its accessibility, providing users with on-the-go expense tracking and making it ideal for trips and events.
+
+Machine Learning for Predictive Insights: Integrating basic machine learning models could allow PennyWise to offer budgeting suggestions based on historical spending patterns, adding value for frequent users.
+
