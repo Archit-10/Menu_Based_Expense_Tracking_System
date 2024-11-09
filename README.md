@@ -88,7 +88,7 @@ Cash Sterling                        -20.0
 
 <p>After completing all entries, export your data to a CSV file (<code>expenses.csv</code>). The file includes each participant's net balance, making it easy to share or review your finances.</p>
 
-<h2>🚀 Challenges and Future Directions</h2>
+<h2>Challenges and Future Directions</h2>
 
 <h3>Challenges Faced</h3>
 
